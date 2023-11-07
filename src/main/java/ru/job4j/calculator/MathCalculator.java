@@ -15,8 +15,8 @@ public class MathCalculator {
     public static double sum1And1Function(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
-                +div(first, second)
-                +division(first, second);
+                + div(first, second)
+                + division(first, second);
     }
 
     public static void main(String[] args) {
