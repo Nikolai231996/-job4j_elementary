@@ -1,18 +1,22 @@
 package ru.job4j;
 
 public class Culculator {
+    public static void plus(int first, int second) {
+        int result = first + second;
+        System.out.println(result);
+    }
+
+    public static void minus(int first, int second) {
+        int result = first - second;
+        System.out.println(result);
+    }
+
     public static void main(String[] args) {
-        int one = 1;
-        int two = 2;
-        int six = 5;
-        int four = 4;
-        int five = 5;
-        int sixDivTwo = six + two;
-        System.out.println(sixDivTwo);
-        int fiveMinusTwo = five + two;
-        System.out.println(fiveMinusTwo);
-        int fourTimeTwo = four + two;
-        System.out.println(fourTimeTwo);
-        int onePlusTwo = one + two;
-        System.out.println(onePlusTwo);
-} }
+        plus(100, 500);
+        plus(4, 2);
+        plus(3, 5);
+        minus(7, 3);
+        minus(2, 6);
+
+}
+}
