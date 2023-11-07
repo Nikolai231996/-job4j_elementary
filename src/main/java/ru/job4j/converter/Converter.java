@@ -20,7 +20,7 @@ public class Converter {
         float in1 = 60;
         float expected1 = 1;
         float out1 = Converter.rubleToDollar(in1);
-        boolean dollar = expected1 == out1;
+        boolean dollar = expected == out;
         System.out.println("60 rubles are " + dollar + " dollar.");
     }
 }
