@@ -17,10 +17,10 @@ public class Converter {
         float out = Converter.rubleToEuro(in);
         boolean euro = expected == out;
         System.out.println("70 rubles are " + euro + " euro.");
-        float in3 = 60;
-        float expected3 = 1;
-        float out3 = Converter.rubleToDollar(in3);
-        boolean dollar = expected3 == out3;
+        float in4 = 60;
+        float expected4 = 1;
+        float out4 = Converter.rubleToDollar(in4);
+        boolean dollar = expected4 == out4;
         System.out.println("60 rubles are " + dollar + " dollar.");
     }
 }
