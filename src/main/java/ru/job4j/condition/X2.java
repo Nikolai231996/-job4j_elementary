@@ -21,7 +21,7 @@ public class X2 {
             int a2 = 1;
             int b2 = 1;
             int c2 = 0;
-            int x2 = 0;
+            int x2 = 1;
             int rsl2 = X2.calc(a2, b2, c2, x2);
             System.out.println(rsl2);
             int a3 = 1;
