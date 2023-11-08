@@ -22,6 +22,11 @@ class SqAreaTest {
         double expected2 = 1.102;
         double out2 = SqArea.square(p2, k2);
         assertThat(out2).isEqualTo(expected2, withPrecision(0.01));
+        int p3 = 3;
+        double k3 = 5;
+        double expected3 = 0.31;
+        double out3 = SqArea.square(p3, k3);
+        assertThat(out3).isEqualTo(expected3, withPrecision(0.01));
      }
     }
 
