@@ -27,5 +27,12 @@ class PointTest {
         double expected2 = 7.211;
         double out2 = Point.distance(x12, y12, x22, y22);
         assertThat(out2).isEqualTo(expected2, withPrecision(0.01));
+        int x13 = 2;
+        int y13 = 8;
+        int x23 = 3;
+        int y23 = 1;
+        double expected3 = 7.071;
+        double out3 = Point.distance(x13, y13, x23, y23);
+        assertThat(out3).isEqualTo(expected3, withPrecision(0.01));
     }
 }
