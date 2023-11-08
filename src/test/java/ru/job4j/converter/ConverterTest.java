@@ -17,9 +17,9 @@ class ConverterTest {
     }
 
     @Test
-    void whenConvert120RblThen1Dollar() {
-        float one = 120;
-        float two = 2;
+    void whenConvert60RblThen1Dollar() {
+        float one = 60;
+        float two = 1;
         float there = Converter.rubleToDollar(one);
         float five = 0.0001f;
         assertThat(there).isEqualTo(two, withPrecision(five));
