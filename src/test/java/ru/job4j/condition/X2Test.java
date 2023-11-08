@@ -24,7 +24,7 @@ class X2Test {
         int a2 = 1;
         int b2 = 1;
         int c2 = 0;
-        int x2 = 1;
+        int x2 = 0;
         int expected2 = 2;
         int rsl2 = X2.calc(a2, b2, c2, x2);
         assertThat(rsl2).isEqualTo(expected2);
