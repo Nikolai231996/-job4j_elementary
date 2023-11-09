@@ -17,11 +17,11 @@ class ConverterTest {
     }
 
     @Test
-    void whenConvert120RblThen1Dollar() {
-        float in2 = 120;
-        float expected2 = 1;
-        float out2 = Converter.rubleToDollar(in2);
-        float eps2 = 0.0001f;
-        assertThat(out2).isEqualTo(expected2, withPrecision(eps2));
+    void whenConvert160RblThen1Dollar() {
+        float in = 120;
+        float expected = 2;
+        float out = Converter.rubleToDollar(in);
+        float eps = 0.0001f;
+        assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
 }
