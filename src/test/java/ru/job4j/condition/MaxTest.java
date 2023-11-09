@@ -14,6 +14,7 @@ class MaxTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
     void  whenMax15To7Then15() {
         int left1 = 15;
         int right1 = 7;
@@ -22,19 +23,21 @@ class MaxTest {
         assertThat(result1).isEqualTo(expected1);
  }
 
- void  whenMax5To2Then2() {
+    @Test
+    void  whenMax5To2Then2() {
         int left2 = 5;
         int right2 = 2;
         int result2 = Max.max(left2, right2);
-        int expected2 = 2;
+        int expected2 = 5;
         assertThat(result2).isEqualTo(expected2);
  }
 
-    void  whenMax3To3Then3() {
-        int left2 = 5;
-        int right2 = 2;
-        int result2 = Max.max(left2, right2);
-        int expected2 = 3;
-        assertThat(result2).isEqualTo(expected2);
+    @Test
+    void  whenMax3To2Then3() {
+        int left3 = 3;
+        int right3 = 2;
+        int result3 = Max.max(left3, right3);
+        int expected3 = 3;
+        assertThat(result3).isEqualTo(expected3);
  }
 }
