@@ -15,7 +15,7 @@ class SqAreaTest {
     }
 
     @Test
-    void whenP8K4Square2()  {
+    void whenP8K4Square2dot56()  {
         int p1 = 8;
         double k1 = 4;
         double expected1 = 2.56;
@@ -24,7 +24,7 @@ class SqAreaTest {
     }
 
     @Test
-    void whenP7K9Square1()  {
+    void whenP7K9Square1dot102()  {
         int p2 = 7;
         double k2 = 9;
         double expected2 = 1.102;
@@ -33,7 +33,7 @@ class SqAreaTest {
     }
 
     @Test
-    void whenP3K5Square0()  {
+    void whenP3K5Square0dot31()  {
         int p3 = 3;
         double k3 = 5;
         double expected3 = 0.31;
