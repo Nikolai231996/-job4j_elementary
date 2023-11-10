@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.*;
 class PointTest {
 
     @Test
-    void when63to28then6() {
+    void when63to28then6dot40() {
         int x1 = 6;
         int y1 = 3;
         int x2 = 2;
@@ -16,7 +16,7 @@ class PointTest {
     }
 
     @Test
-    void when84to57then4() {
+    void when84to57then4dot24() {
         int x11 = 8;
         int y11 = 4;
         int x21 = 5;
@@ -27,7 +27,7 @@ class PointTest {
     }
 
     @Test
-    void when31to95then7() {
+    void when31to95then7dot211() {
         int x12 = 3;
         int y12 = 1;
         int x22 = 9;
@@ -38,7 +38,7 @@ class PointTest {
     }
 
     @Test
-    void when28to31then7() {
+    void when28to31then7dot071() {
         int x13 = 2;
         int y13 = 8;
         int x23 = 3;
