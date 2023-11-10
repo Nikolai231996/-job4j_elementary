@@ -7,7 +7,7 @@ public class Triangle {
 
     public static void main(String[] args) {
         boolean result = exist(2, 2, 2);
-        boolean result1 = !exist(2, 2, 2);
+        boolean result1 = !exist(3, 2, 4);
         System.out.println(result);
         System.out.println(result1);
 
