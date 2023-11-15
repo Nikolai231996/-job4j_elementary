@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class LogicNotTest {
-
     @Test
     void whenIsEvenTrue() {
         int num = 2;
