@@ -2,11 +2,18 @@ package ru.job4j.array;
 
 public class ArrayDefinition {
     public static void main(String[] args) {
-        short[] agges = new short[10];
-        String[] surnames = new String[100500];
-        float[] prices = new float[40];
-        System.out.println("Размер массива равен: " + agges.length);
-        System.out.println("Размер массива равен: " + surnames.length);
-        System.out.println("Размер массива равен: " + prices.length);
+        String[] names = new String[4];
+        names[0] = "Nikolya Ilin";
+        names[1] = "Petr Butanov";
+        names[2] = "Alex Vlasov";
+        names[3] = "Egor Voronin";
+        String years = names[0];
+        String years1 = names[1];
+        String years2 = names[2];
+        String years3 = names[3];
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
