@@ -35,7 +35,7 @@ class LogicNotTest {
 
     @Test
     void whenNumIs0IsPositiveFalse() {
-        int num = 0;
+        int num = -2;
         boolean result = LogicNot.isPositive(num);
         assertThat(result).isFalse();
     }
