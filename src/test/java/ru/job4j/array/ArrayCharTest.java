@@ -7,7 +7,7 @@ public class ArrayCharTest {
     @Test
     public void whenStartWithPrefixThenTrue() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
-        char[] pref = {'H', 'e'};
+        char[] pref = {'H', 'o'};
         boolean result = ArrayChar.startsWith(word, pref);
         assertThat(result).isTrue();
     }
