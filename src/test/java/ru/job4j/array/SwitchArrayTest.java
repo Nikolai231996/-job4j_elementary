@@ -15,22 +15,22 @@ class SwitchArrayTest {
     }
 
     @Test
-    void whenSwap1to3() {
+    void whenSwap2to3() {
         int[] input = {1, 2, 3, 4, 5, 6};
-        int source = 1;
+        int source = 2;
         int dest = input.length - 1;
         int[] result = SwitchArray.swap(input, source, dest);
-        int[] expected = {1, 6, 3, 4, 5, 2};
+        int[] expected = {1, 2, 6, 4, 5, 3};
         assertThat(result).containsExactly(expected);
     }
 
     @Test
-    void whenSwap1to4() {
+    void whenSwap2to4() {
         int[] input = {1, 2, 3, 4, 5, 6};
-        int source = 1;
+        int source = 3;
         int dest = input.length - 1;
         int[] result = SwitchArray.swap(input, source, dest);
-        int[] expected = {1, 6, 3, 4, 5, 2};
+        int[] expected = {1, 2, 3, 6, 5, 4};
         assertThat(result).containsExactly(expected);
 
     }
