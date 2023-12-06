@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class RollBackArrayTest {
     @Test
-    public void whenEmpty() {
+    public void whenEmpty1() {
         int[] input = new int[] {};
         int[] expected = new int[] {};
         int[] result = RollBackArray.rollback(input);
