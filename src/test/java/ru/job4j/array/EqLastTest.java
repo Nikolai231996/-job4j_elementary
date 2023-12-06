@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class EqLastTest {
     @Test
-    public void whenEq() {
+    public void whenEq1() {
         int[] left = {1, 2, 3};
         int[] right = {5, 4, 3};
         boolean result = EqLast.check(left, right);
