@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MinDiapasonTest {
     @Test
-    public void whenFirstMin() {
+    public void whenFirstMin1() {
         int[] array = new int[] {-1, 0, 5, 10};
         int start = 1;
         int finish = 3;
